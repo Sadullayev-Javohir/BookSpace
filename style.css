@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    overflow-y: visible;
 }
 
 :root {
@@ -1580,7 +1581,7 @@ nav ul li a:hover {
 }
 
 .team-col img {
-    width: 138px;
+    width: 158px;
     height: 226px;
 }
 
@@ -1590,7 +1591,7 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-position: bottom;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0px;
     width: 300px;
     height: 300px;
@@ -1604,8 +1605,8 @@ nav ul li a:hover {
 .team-col-icon #facebook {
     color: #3B5998;
     position: absolute;
-    top: 160px;
-    left: 30px;
+    top: 170px;
+    left: 52px;
     cursor: pointer;
 }
 
@@ -1617,8 +1618,8 @@ nav ul li a:hover {
 .team-col-icon #linkedin {
     color: #0E76A8;
     position: absolute;
-    top: 135px;
-    left: 60px;
+    top: 155px;
+    left: 90px;
 }
 
 .team-col-icon #linkedin:hover {
@@ -1631,6 +1632,7 @@ nav ul li a:hover {
     position: absolute;
     top: 120px;
     left: 100px;
+    display: none;
 }
 
 .team-col-icon #behance:hover,
@@ -1642,14 +1644,14 @@ nav ul li a:hover {
 .team-col-icon .bxl-telegram {
     color: #4baeff;
     position: absolute;
-    top: 112px;
-    left: 135px;
+    top: 150px;
+    left: 130px;
 }
 
 .team-col-icon #vimeo {
     color: #BA5CAB;
     position: absolute;
-    top: 120px;
+    top: 150px;
     right: 100px;
 }
 
@@ -1661,7 +1663,7 @@ nav ul li a:hover {
 .team-col-icon #pinterest {
     color: #E60023;
     position: absolute;
-    top: 135px;
+    top: 165px;
     right: 60px;
 }
 
@@ -1676,6 +1678,7 @@ nav ul li a:hover {
     top: 160px;
     right: 30px;
     cursor: pointer;
+    display: none;
 }
 
 .team-col-icon #vk:hover {
@@ -1698,7 +1701,7 @@ nav ul li a:hover {
 
 .team-text {
     position: relative;
-    top: 55px;
+    top: 65px;
 }
 
 .team-text h3 {
@@ -1849,6 +1852,7 @@ nav ul li a:hover {
     .team-col img {
         width: 138px;
         height: 216px;
+        
     }
 }
 
