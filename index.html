@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LED</title>
+        <!-- google fonts link-2 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- google fonts link-2 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- fontawesome link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- boxicons link -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- css link -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- favicon link -->
+        <link rel="shortcut icon" href="./image/favicon.jpg">
+    </head>
+    <body>
+        <!-- loading -->
+        <div id="load"></div>
+        <!-- header-1 -->
+        <div class="header">
+            <div class="container">
+                <div class="header-1">
+                    <div class="nav-1">
+                        <div class="nav-1-icon">
+                            <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                            <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                            <i class="fa-brands fa-instagram" id="instagram"></i>
+                        </div>
+                        <label for="translate">
+                            <select name="translate" id="translate">
+                                <option value="uz">Uz</option>
+                                <option value="eng">Eng</option>
+                                <option value="ru">Ru</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="header-1-hr"></div>
+                <!-- header-2 -->
+                <nav>
+                    <a href="#" class="logo">
+                        <img src="./image/logo.png" alt="">
+                    </a>
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fa-solid fa-bars" id="menu"></i>
+                        <i class="fa-solid fa-xmark" id="cancel"></i>
+                    </label>
+                    <ul>
+                        <li>
+                            <a href="#home">Asosiy</a>
+                        </li>
+                        <li>
+                            <a href="#sponsor">Homiylar</a>
+                        </li>
+                        <li>
+                            <a href="#nodir">Nodir Kitoblar</a>
+                        </li>
+                        <li>
+                            <a href="#yuqori">Kitoblar</a>
+                        </li>
+                        <li>
+                            <a href="#deliver">Yetkazish</a>
+                        </li>
+                        <li>
+                            <a href="#team">Jamoa</a>
+                        </li>
+                        <li>
+                            <a href="#news">Yangiliklar</a>
+                        </li>
+                        <div class="header-2-icon-ul">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </ul>
+                    <div class="header-2-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </nav>
+                <!-- home -->
+                <div id="home" class="home">
+                    <div class="home-half">
+                        <div class="home-left">
+                            <h1>Siz izlayotgan kitoblar shu yerda - BookSpace</h1>
+                            <p>BookSpace loyihasi chekka hududlarda bo'lgan muhandislik kitoblarini osonlik bilan olishdagi bo'shliqni bartaraf qiladi va talabalarning ta'limga bo'lgan ehtiyojlarini qondiradi.</p>
+                            <center>
+                                <div class="home-button">
+                                    <button>Ro'yxatdan o'tish</button>
+                                    <button>Tizimga kirish</button>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="home-right" data-tilt>
+                            <img src="./image/home-img.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- sponsor -->
+                <div id="sponsor" class="sponsor">
+                    <div class="auction-text-1">
+                        <h3>Homiylar</h3>
+                    </div>
+                    <div class="auction-text-2">
+                        <h1>Bizning homiylarimiz</h1>
+                        <p>Bizning homiylarimiz My Taxi, ANORBANK, CLICK, UZCARD va boshqa kompaniyalar bilan shartnoma qilingan,</p>
+                    </div>
+                    <center>
+                        <div class="sponsor-column">
+                            <div class="sponsor-col" data-tilt>
+                                <img src="./image/mytaxi.svg" alt="">
+                                <h2>My Taxi</h2>
+                            </div>
+                            <div class="sponsor-col" data-tilt>
+                                <img src="./image/anorbank.svg" alt="">
+                                <h2>ANORBANK</h2>
+                            </div>
+                            <div class="sponsor-col" data-tilt>
+                                <img src="./image/click.svg" alt="">
+                                <h2>CLICK</h2>
+                            </div>
+                            <div class="sponsor-col" data-tilt>
+                                <img src="./image/uzcard.svg" alt="">
+                                <h2>UZCARD</h2>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!-- auction -->
+        <div id="nodir" class="auction">
+            <div class="container">
+                <div class="auction-text-1">
+                    <h3>Nodir Kitoblar</h3>
+                </div>
+                <div class="auction-text-2">
+                    <h1>Nodir Kitoblar</h1>
+                    <p> Siz qadimiy kitoblar, birinchi nashrlar, fotografiya kitoblari va o'tmishdagi eski kitoblarni topasiz. Qimmatbaho kitoblardan tortib antiqa kitoblargacha, har bir to'plam uchun bizda hammasi mavjud.
+                    </p>
+                </div>
+                <div class="auction-column">
+                    <div class="auction-col">
+                        <img src="./image/mercy.jpg" alt="">
+                        <div class="auction-col-author">
+                            <h3>Faqat rahm-shafqat</h3>
+                            <h5>Brayan Stivenson</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auction-col">
+                        <img src="./image/don.jfif" alt="">
+                        <div class="auction-col-author">
+                            <h3>Don Kixot</h3>
+                            <h5>Migel de Servantes</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auction-col">
+                        <img src="./image/ulugbek.jpg" alt="">
+                        <div class="auction-col-author">
+                            <h3>Ulug'bek xazinasi</h3>
+                            <h5>Odil Yoqubov</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auction-col">
+                        <img src="./image/atirgul.jfif" alt="">
+                        <div class="auction-col-author">
+                            <h3>Tikanlar va atirgullar sudi</h3>
+                            <h5>Sarah J. Maas</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- auction column 2 -->
+                <div class="auction-column">
+                    <div class="auction-col">
+                        <img src="./image/qiyomat1.jpg" alt="">
+                        <div class="auction-col-author">
+                            <h3>Qiyomat</h3>
+                            <h5>Chingiz aytmatov</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auction-col">
+                        <img src="./image/peace.jfif" alt="">
+                        <div class="auction-col-author">
+                            <h3>Urush va tinchlik</h3>
+                            <h5>Lev Tolstoy</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auction-col">
+                        <img src="./image/ufq1.webp" alt="">
+                        <div class="auction-col-author">
+                            <h3>Ufq</h3>
+                            <h5>Said Ahmad</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auction-col">
+                        <img src="./image/karenina.jfif" alt="">
+                        <div class="auction-col-author">
+                            <h3>Anna Karenina</h3>
+                            <h5>Lev Tolstoy</h5>
+                        </div>
+                        <div class="auction-col-bottom">
+                            <div class="auction-col-icon">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="auction-col-button">
+                                <button>Sotib olish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- authors -->
+        <div class="authors">
+            <div class="container">
+                <div class="authors-text-1">
+                    <h3>Mualliflar</h3>
+                </div>
+                <div class="authors-text-2">
+                    <h1>Eng yaxshi mualliflar</h1>
+                    <p>Bu bo'limda o'z davrining eng mukammal va eng kuchli kitob mualliflari o'rin olgan.</p>
+                </div>
+                <div class="authors-column">
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/stiven_king.jfif" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Stiven King</h3>
+                            <h4>Amerika yozuvchisi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/shekspir.jfif" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Uilyam Shekspir</h3>
+                            <h4>Amerika dramaturgi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/agata.jfif" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Agata Kristi</h3>
+                            <h4>Amerika yozuvchisi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/tolstoy.jfif" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Lev Tolstoy</h3>
+                            <h4>Rossiya yozuvchisi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="authors-column">
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/harruki.jfif" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Haruki Murakami</h3>
+                            <h4>Yapon yozuvchisi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/seuss.jfif" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Doktor Seuss</h3>
+                            <h4>Amerikalik bolalar yozuvchisi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/chingiz.jpg" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Chingiz Aytmatov</h3>
+                            <h4>Qirg'iz yozuvchisi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                    <div class="authors-col">
+                        <div class="authors-img">
+                            <img src="./image/said.jpg" alt="">
+                        </div>
+                        <div class="authors-text">
+                            <h3>Said Ahmad</h3>
+                            <h4>O'zbek yozuvchisi</h4>
+                            <h5>Kitoblari...</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- collection -->
+        <div id="yuqori" class="collection">
+            <div class="container">
+                <div class="collection-text-1">
+                    <h3>Kitoblar</h3>
+                </div>
+                <div class="collection-text-2">
+                    <h1>Yuqori baholangan kitoblar</h1>
+                    <p>BookSpace da foydalanuvchilar tomonidan eng yuqori ball bilan baholangan kitoblar jamlanmasi.</p>
+                </div>
+                <div class="collection-column">
+                    <div class="collection-col">
+                        <div class="collection-col-img">
+                            <img src="./image/bulbul.jfif" alt="">
+                        </div>
+                        <h3>Bulbul</h3>
+                        <div class="collection-col-text">
+                            <div class="collection-col-text-1">
+                                <h5>Kristin Xanna</h5>
+                                <h6>Hozir sotib olish</h6>
+                            </div>
+                            <div class="collection-col-icon">
+                                <div class="collection-col-like">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h6>32K</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-col-hr"></div>
+                        <div class="collection-col-bottom">
+                            <div class="collection-col-bottom-img">
+                                <img src="./image/collection-radius-1.png" alt="">
+                                <h6>Izoh qoldiring...</h6>
+                            </div>  
+                            <div class="collection-col-bottom-text">
+                                <img src="./image/collection-col-bottom.png" alt="">
+                                <h6>5.0</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-col">
+                        <div class="collection-col-img">
+                            <img src="./image/1984.jfif" alt="">
+                        </div>
+                        <h3>1984-yil</h3>
+                        <div class="collection-col-text">
+                            <div class="collection-col-text-1">
+                                <h5>Jorj Oruell</h5>
+                                <h6>Hozir sotib olish</h6>
+                            </div>
+                            <div class="collection-col-icon">
+                                <div class="collection-col-like">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h6>20K</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-col-hr"></div>
+                        <div class="collection-col-bottom">
+                            <div class="collection-col-bottom-img">
+                                <img src="./image/collection-radius-1.png" alt="">
+                                <h6>Izoh qoldiring...</h6>
+                            </div>  
+                            <div class="collection-col-bottom-text">
+                                <img src="./image/collection-col-bottom.png" alt="">
+                                <h6>4.2</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-col">
+                        <div class="collection-col-img">
+                            <img src="./image/jinoyat.jfif" alt="">
+                        </div>
+                        <h3>Jinoyat va Jazo</h3>
+                        <div class="collection-col-text">
+                            <div class="collection-col-text-1">
+                                <h5>Fyodor Dostoevskiy</h5>
+                                <h6>Hozir sotib olish</h6>
+                            </div>
+                            <div class="collection-col-icon">
+                                <div class="collection-col-like">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h6>30K</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-col-hr"></div>
+                        <div class="collection-col-bottom">
+                            <div class="collection-col-bottom-img">
+                                <img src="./image/collection-radius-1.png" alt="">
+                                <h6>Izoh qoldiring...</h6>
+                            </div>  
+                            <div class="collection-col-bottom-text">
+                                <img src="./image/collection-col-bottom.png" alt="">
+                                <h6>4.8</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-column">
+                    <div class="collection-col">
+                        <div class="collection-col-img">
+                            <img src="./image/bulbul.jfif" alt="">
+                        </div>
+                        <h3>Garri Potter va sirlar palatasi</h3>
+                        <div class="collection-col-text">
+                            <div class="collection-col-text-1">
+                                <h5>J.K. Rovling</h5>
+                                <h6>Hozir sotib olish</h6>
+                            </div>
+                            <div class="collection-col-icon">
+                                <div class="collection-col-like">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h6>31.5K</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-col-hr"></div>
+                        <div class="collection-col-bottom">
+                            <div class="collection-col-bottom-img">
+                                <img src="./image/collection-radius-1.png" alt="">
+                                <h6>Izoh qoldiring...</h6>
+                            </div>  
+                            <div class="collection-col-bottom-text">
+                                <img src="./image/collection-col-bottom.png" alt="">
+                                <h6>4.9</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-col">
+                        <div class="collection-col-img">
+                            <img src="./image/ayollar.jfif" alt="">
+                        </div>
+                        <h3>Ayollar</h3>
+                        <div class="collection-col-text">
+                            <div class="collection-col-text-1">
+                                <h5>Kristin Xanna</h5>
+                                <h6>Hozir sotib olish</h6>
+                            </div>
+                            <div class="collection-col-icon">
+                                <div class="collection-col-like">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h6>29.5k</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-col-hr"></div>
+                        <div class="collection-col-bottom">
+                            <div class="collection-col-bottom-img">
+                                <img src="./image/collection-radius-1.png" alt="">
+                                <h6>Izoh qoldiring...</h6>
+                            </div>  
+                            <div class="collection-col-bottom-text">
+                                <img src="./image/collection-col-bottom.png" alt="">
+                                <h6>5.0</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-col">
+                        <div class="collection-col-img">
+                            <img src="./image/xazina.jpg" alt="">
+                        </div>
+                        <h3>Ulug'bek xazinasi</h3>
+                        <div class="collection-col-text">
+                            <div class="collection-col-text-1">
+                                <h5>Odil Yoqubov</h5>
+                                <h6>Hozir sotib olish</h6>
+                            </div>
+                            <div class="collection-col-icon">
+                                <div class="collection-col-like">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h6>32K</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-col-hr"></div>
+                        <div class="collection-col-bottom">
+                            <div class="collection-col-bottom-img">
+                                <img src="./image/collection-radius-1.png" alt="">
+                                <h6>Izoh qoldiring...</h6>
+                            </div>  
+                            <div class="collection-col-bottom-text">
+                                <img src="./image/collection-col-bottom.png" alt="">
+                                <h6>5.0</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- connect -->
+        <div id="deliver" class="connect">
+            <div class="container">
+                <div class="creator-text-1">
+                    <h3>Yetkazish</h3>
+                </div>
+                <div class="creator-text-2">
+                    <h1>Yetkazib berish xizmati</h1>
+                    <p>BookSpace kompaniyamizda quyidagi yetkazib berish xizmatlari mavjud.</p>
+                </div>
+                <div class="connect-column">
+                    <div class="connect-col">
+                        <div class="connect-col-img">
+                            <img src="./image/punkt.avif" alt="">
+                        </div>
+                        <div class="connect-text">
+                            <h5>BookSpace punktigacha yetkazib berish</h5>
+                            <p></p>
+                        </div>
+                        <center>
+                            <div class="connect-button">
+                                <button>Tanlash</button>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="connect-col">
+                        <div class="connect-col-img">
+                            <img src="./image/uygacha.jpg" alt="">
+                        </div>
+                        <div class="connect-text">
+                            <h5>Uygacha yetkazib berish</h5>
+                            <p></p>
+                        </div>
+                        <center>
+                            <div class="connect-button">
+                                <button>Tanlash</button>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="connect-col">
+                        <div class="connect-col-img">
+                            <img src="./image/office.webp" alt="">
+                        </div>
+                        <div class="connect-text">
+                            <h5>BookSpace rasmiy ofisiga tashrif buyurish</h5>
+                            <p></p>
+                        </div>
+                        <center>
+                            <div class="connect-button">
+                                <button>Tanlash</button>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- popular team -->
+        <div id="team" class="team">
+            <div class="container">
+                <div class="team-text-1">
+                    <h3>Jamoa</h3>
+                </div>
+                <div class="team-text-2">
+                    <h1>Bizning professional va mustahkam jamoamiz</h1>
+                    <p>Kuchli jamoa - kuchli maqsadlar! Birgalikda har bir muammoni yengamiz va har bir maqsadimizga erishamiz.</p>
+                </div>
+                <div class="team-column">
+                    <div class="team-col">
+                        <img src="./image/popular-1.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Asilbek Sa'dullayev</h3>
+                                <h6>Moliyachi</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-2.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Ozodbek Tursunpo'latov</h3>
+                                <h6>Lider</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-3.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Boburjon Ubaydullayev</h3>
+                                <h6>Yetkazib beruvchi</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-3.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Javohir Sadullayev</h3>
+                                <h6>Frontend developer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-column">
+                    <div class="team-col">
+                        <img src="./image/popular-5.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Manuchexra Nurmexrojova</h3>
+                                <h6>Backend Developer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-6.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Ravshan Isroilov</h3>
+                                <h6>Manager 1</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-7.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Quwat Yuldabayev</h3>
+                                <h6>Manager 2</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-8.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Kamron Qoraboyev</h3>
+                                <h6>Marketing 1</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-column">
+                    <div class="team-col">
+                        <img src="./image/popular-5.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Akbarshoh Ravshanov</h3>
+                                <h6>Marketing 2</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-6.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Munisa Zohidova</h3>
+                                <h6>Call Center 1</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-7.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Javohir Sulaymonov</h3>
+                                <h6>Call center 2</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-col">
+                        <img src="./image/popular-8.png" alt="">
+                        <div class="team-col-radius">
+                            <div class="team-col-icon">
+                                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+                                <i class="fa-brands fa-behance" id="behance"></i>
+                                <i class='bx bxl-telegram'></i>
+                                <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                                <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                                <i class="fa-brands fa-vk" id="vk"></i>
+                            </div>
+                            <div class="team-text">
+                                <h3>Lazizbek Namozov</h3>
+                                <h6>Investor</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- blog -->
+        <div id="news" class="blog">
+            <div class="container">
+                <div class="blog-text-1">
+                    <h3>Xabarlar</h3>
+                </div>
+                <div class="blog-text-2">
+                    <h1>Eng so'nggi xabarlar</h1>
+                    <p>BookSpace saytimiz orqali yangi kitob va Yangiliklarni kuzatib borishingiz mumkin.</p>
+                </div>
+                <div class="blog-column">
+                    <div class="blog-col">
+                        <div class="blog-col-img">
+                            <img src="./image/qahva.webp" alt="">
+                        </div>
+                        <div class="blog-col-comment">
+                            <div class="blog-col-comment-1">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <h6>20.10.2024</h6>
+                            </div>
+                            <div class="blog-col-comment-2">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <h6>30</h6>
+                            </div>
+                        </div>
+                        <h3> Jamoat kutubxonasining kelajagi qahvaxonada bo'lishi mumkin</h3>
+                        <p>Buyuk Britaniyadagi jamoat kutubxonalarining uzoq kutilgan sharhi ularni raqamli ...</p>
+                        <button>Ko'proq o'qish</button>
+                    </div>
+                    <div class="blog-col">
+                        <div class="blog-col-img">
+                            <img src="./image/qorqma.jpg" alt="">
+                        </div>
+                        <div class="blog-col-comment">
+                            <div class="blog-col-comment-1">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <h6>19.10.2024</h6>
+                            </div>
+                            <div class="blog-col-comment-2">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <h6>25</h6>
+                            </div>
+                        </div>
+                        <h3>“Qo'rqma” - 70 qahramon misolida bugungi avlodga ham oyna tutgan asar</h3>
+                        <p>70 qadam, 70 ta iz, 70 mushtarak tilak, 70 armon. Ular haqida ko'pchilik bilmaydi. Ba'zilar...</p>
+                        <button>Ko'proq o'qish</button>
+                    </div>
+                    <div class="blog-col">
+                        <div class="blog-col-img">
+                            <img src="./image/men.jpg" alt="">
+                        </div>
+                        <div class="blog-col-comment">
+                            <div class="blog-col-comment-1">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <h6>21.10.2024</h6>
+                            </div>
+                            <div class="blog-col-comment-2">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <h6>40</h6>
+                            </div>
+                        </div>
+                        <h3>Men. Bas qil, ey nafs!</h3>
+                        <p>Ba'zida yozishdan boshqa chora yo'qdek tuyuladi. Yozishdan boshqa malham yo'q deysan-u, yana yozaverasan. Bir chekkada...</p>
+                        <button>Ko'proq o'qish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-column">
+                    <div class="footer-col">
+                        <a href="#">
+                            <img src="./image/logo.png" alt="">
+                        </a>
+                        <p>Siz izlayotgan kitoblar shu yerda - BookSpace</p>
+                        <label for="subscribe">
+                            <input type="email" placeholder="Emailinginzni kiriting..">
+                            <button>Subscribe</button>
+                        </label>
+                        <div class="footer-icon">
+                            <i class="fa-brands fa-behance" id="behance"></i>
+                            <i class="fa-brands fa-vimeo-v" id="vimeo"></i>
+                            <i class="fa-brands fa-pinterest-p" id="pinterest"></i>
+                            <i class="fa-brands fa-vk" id="vk"></i>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h1>BookSpace</h1>
+                        <ul>
+                            <li>
+                                <a href="#home">Asosiy</a>
+                            </li>
+                            <li>
+                                <a href="#sponsor">Homiylar</a>
+                            </li>
+                            <li>
+                                <a href="#nodir">Nodir Kitoblar</a>
+                            </li>
+                            <li>
+                                <a href="#yuqori">Kitoblar</a>
+                            </li>
+                            <li>
+                                <a href="#deliver">Yetkazish</a>
+                            </li>
+                            <li>
+                                <a href="#team">Jamoa</a>
+                            </li>
+                            <li>
+                                <a href="#news">Yangiliklar</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Biz haqimizda</h1>
+                        <ul>
+                            <li>
+                                <a href="#about_us">Biz haqimizda</a>
+                            </li>
+                            <li>
+                                <a href="#delivery">Yetkazib berish haqida ma'lumot</a>
+                            </li>
+                            <li>
+                                <a href="#pay_return">To'lovni qaytarish siyosati</a>
+                            </li>
+                            <li>
+                                <a href="#use">Foydalanish shartlari</a>
+                            </li>
+                            <li>
+                                <a href="#privacy">Maxfiylik siyosati</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Mijozlarga xizmat ko'rsatish</h1>
+                        <ul>
+                            <li>
+                                <a href="#contact">Aloqa</a>
+                            </li>
+                            <li>
+                                <a href="#watch_deliver">Buyurtmani kuzatish</a>
+                            </li>
+                            <li>
+                                <a href="#how_buy">Qanday buyurtma berish mumkin ?</a>
+                            </li>
+                            <li>
+                                <a href="#fast_deliver">Tez yetkazib berish</a>
+                            </li>
+                            <li class="footer-display">
+                                <a href="#standart_deliver">Standart yetkazib berish <span>10+ ish kuni</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-hr"></div>
+            </div>
+        </div>
+        <!-- vanilla js -->
+        <script src="vanilla.js"></script>
+        <!-- loading js -->
+        <script src="loading.js"></script>
+    </body>
+</html>
