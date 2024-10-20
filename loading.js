@@ -1,4 +1,6 @@
 var load = document.getElementById('load');
 window.addEventListener('load', function() {
-    load.style.display='none'
+    setTimeout(() => {
+        load.style.display='none'
+    }, 5000)
 });
