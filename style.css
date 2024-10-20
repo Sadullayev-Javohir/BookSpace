@@ -30,6 +30,7 @@
 
 body {
     transition: 1s;
+    overflow-x: hidden;
 }
 
 /* loading */
